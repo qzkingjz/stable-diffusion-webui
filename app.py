@@ -1,5 +1,2 @@
-  import gradio as gr
-    def greet(name):
-        return "Hello" + name + "!!"
-    iface = gr.Interface(fn=greet, inputs="text", outputs="text")
-    iface.launch()
+import os
+env_value = os.getenv({``env_value``})
