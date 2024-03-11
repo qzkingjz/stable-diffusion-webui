@@ -1,2 +1,3 @@
 import os
-env_value = os.getenv({``env_value``})
+env_value = os.getenv("ENV_VALUE", default=None)
+
